@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
-    "feature" : "cypress run --browser chrome --spec cypress/features/test.feature ",
+    "prueba" : "cypress run --browser chrome --spec cypress/e2e/prueba.cy.js",
     "reportTest": "cypress run --spec cypress/features/test.feature --headless",
     "cypress:execution": "cypres run"
   },

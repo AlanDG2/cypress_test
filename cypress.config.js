@@ -25,7 +25,7 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   e2e: {
     experimentalStudio: true,
-    specPattern: "**/*.feature",
+    specPattern: "**/*.{js,ts,feature}",
     setupNodeEvents,
   },
 }); 
